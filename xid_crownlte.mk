@@ -28,8 +28,8 @@ $(call inherit-product, device/samsung/crownlte/device.mk)
 TARGET_SCREEN_HEIGHT := 2960
 TARGET_SCREEN_WIDTH := 1440
 
-## Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+## Inherit some device common stuff
+$(call inherit-product, vendor/xid-common/config/common_full_phone.mk)
 
 ## Device identifier, this must come after all inclusions
 PRODUCT_NAME := lineage_crownlte
