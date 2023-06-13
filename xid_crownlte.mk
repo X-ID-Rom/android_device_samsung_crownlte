@@ -32,7 +32,7 @@ TARGET_SCREEN_WIDTH := 1440
 $(call inherit-product, vendor/xid-common/config/common_full_phone.mk)
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_NAME := lineage_crownlte
+PRODUCT_NAME := xid_crownlte
 PRODUCT_DEVICE := crownlte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-N960F
